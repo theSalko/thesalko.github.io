@@ -1,6 +1,12 @@
 body {
     justify-content: center;
+    background-color: black;
+    font-family: 'Proza Libre', sans-serif;
 }
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 header {
     width: 80%;
