@@ -243,4 +243,8 @@ footer p {
         width: 50%;
         font-size: small;
     }
+
+    a {
+        color: rgb(220, 50, 50, 0.7)
+    }
 }
