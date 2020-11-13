@@ -214,3 +214,33 @@ footer p {
     height: 25px;
 
 }
+
+
+@media (max-width: 500px) {
+    body, main {
+        /* background-color: tomato; */
+        width: 100%;
+    }
+
+    nav {
+        margin: 1rem auto;
+        height: 3rem;
+    }
+
+    .nav-link {
+        height: fit-content;
+    }
+
+    .work-exp {
+        font-size: small;
+    }
+
+    footer {
+        width: 92%;
+    }
+
+    .personal-sign-off {
+        width: 50%;
+        font-size: small;
+    }
+}
