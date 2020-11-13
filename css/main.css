@@ -1,7 +1,12 @@
+
+
 body {
     justify-content: center;
-    background-color: black;
+    /* background-color: whitesmoke; */
     font-family: 'Proza Libre', sans-serif;
+
+    width: 80%;
+    margin: auto;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -9,9 +14,10 @@ h1 {
 
 
 header {
-    width: 80%;
-    min-height: 3rem;
-    background-color: wheat;
+    width: 60%;
+    /* was 3rem */
+    min-height: 9rem;
+    /* background-color: wheat; */
 
     margin: 10px auto;
 
@@ -25,21 +31,22 @@ header {
 }
 
 .logo {
-    background-color: violet;
+    /* background-color: violet; */
+    text-align: center;
 
 }
 
 nav {
 
 
-    background-color: yellow;
+    /* background-color: yellow; */
 
 
     height: 1rem;
 
 
     padding-top: 1rem;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
 
 
 
@@ -49,7 +56,7 @@ nav {
 }
 
 .nav-link {
-    background-color: violet;
+    /* background-color: violet; */
     padding: 0 1rem;
     /* justify-content: flex-end; */
 }
@@ -66,7 +73,7 @@ nav {
 
 
 main {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     min-height: 3rem;
 
     /* Center it and make it not fill up the whole screen */
@@ -80,29 +87,66 @@ main {
 }
 
 section {
-    margin: 20px;
-    padding: 10px;
+    margin: 4%;
+    padding: 5%;
+    /* background-color: cornsilk; */
+    background-color: rgb(245, 245, 245, 0.2);
+    border-radius: 50px;
+
 }
 
-.welcome-message {
-    background-color: crimson;
+/* .welcome-message {
+    background-color: rgb(245, 245, 245, 0.2);
+} */
+
+
+
+.work-exp {
+    display: flex;
+    flex-direction: row;
+
+    margin: 25px auto;
+    justify-content: space-between;
+
 }
 
 
 
+.work-name {
+    min-height: fit-content;
+    /* max-width: 20%; */
+    width: 20%;
+}
+
+
+.work-description {
+    min-height: fit-content;
+    max-width: 50%;
+}
+
+.work-date {
+    min-height: fit-content;
+    /* max-width: 20%; */
+    width: 20%;
+}
+
+
+/* 
 .light-text-box{
     background-color: blue;
     width: 80%;
     height: 80px;
     margin: 0 auto;
+} */
+
+
+#id h1 {
+    margin-left: 3.3%;
 }
-
-
-
 footer {
-    background-color: black;
-    color: whitesmoke;
-    padding: 2rem;
+    /* background-color: black;
+    color: whitesmoke; */
+    padding: 1rem;
 
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -111,8 +155,13 @@ footer {
 
 
     /* Center it and make it not fill up the whole screen */
-    width: 80%;
-    margin: 10px auto;
+    width: 60%;
+    margin: 10px auto 0px;
+
+
+    border-top-style: solid;
+    border-color: black;
+    border-top-width: 1px;
 
 
 }
@@ -121,8 +170,9 @@ footer {
 footer p {
     padding: 0;
     margin-block-end: 0;
-    
+    font-size: 0.6rem;
     margin-block-start: 0;
+    margin-bottom: 6px;
 }
 
 
@@ -131,3 +181,36 @@ footer p {
     justify-content: space-between;
 }
 
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-links {
+    align-items: center;
+    display: flex;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-links a img {
+    margin-right: 5px;
+}
+
+.github-image {
+    height: 20px;
+}
+
+
+.linkedin-image { 
+    height: 25px;
+}
+
+.gmail-image {
+    height: 25px;
+
+}
